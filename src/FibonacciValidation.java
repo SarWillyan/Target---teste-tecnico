@@ -5,7 +5,7 @@ public class FibonacciValidation {
         if (n < 0) // não existe
             return false;
 
-        int next = 0, a=0, b=1; // variáveis para encontrar o fibonacci
+        int next , a=0, b=1; // variáveis para encontrar o fibonacci
 
         while ( a <= n) {
             if (a == n)  // valor encontrado
