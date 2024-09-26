@@ -1,3 +1,5 @@
+package QUEST_1;
+
 /**1) Observe o trecho de código abaixo:
  *int INDICE = 13, SOMA = 0, K = 0;
  *Enquanto K < INDICE faça { K = K + 1; SOMA = SOMA + K; }
@@ -6,13 +8,13 @@
  */
 
 public class SomaValue {
-    public static void main(String[] args) {
+    public static int soma() {
         int INDICE = 13, SOMA = 0, K = 0;
 
         while ( K < INDICE) {
             K = K + 1;
             SOMA = SOMA + K;
         }
-        System.out.println(SOMA);
+        return SOMA;
     }
 }
